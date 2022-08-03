@@ -20,3 +20,18 @@ header img{
     border: 2px solid lightgray;
     padding: 2px;
 }
+
+#nav .container-fluid .row .col .hidden ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden ul{
+    display: flex;
+    justify-content: flex-start;
+}
