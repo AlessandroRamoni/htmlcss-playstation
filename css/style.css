@@ -95,3 +95,13 @@ header img{
     border-radius: 20px;
     color: #ffffff;
 }
+
+/* NUOVE USCITE*/
+
+#nuove-uscite{
+    background-color: #1f1f1f;
+}
+
+#nuove-uscite .container-fluid .row .col{
+    color: #ffffff;
+}
