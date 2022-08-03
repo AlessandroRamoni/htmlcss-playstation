@@ -33,15 +33,36 @@ header img{
 
 /* SECTION RETURNAL*/
 
-#returnal .container-xs .row .col{
+#returnal .container-fluid .row .col{
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     background-size: cover;
     background-position: right;
     height: 500px;
 }
 
+#returnal .container-fluid .row .col{
+    color: #ffffff;
+}
+
+#returnal .container-fluid .row .col h1{
+    margin-top: 300px;
+}
+
+#returnal .container-fluid .row .col a{
+    text-decoration: none;
+    border: 2px solid #cd3d0f;
+    padding: 5px;
+    background-color: #cd3d0f;
+    border-radius: 20px;
+    color: #ffffff;
+
+}
+
 /* SECTION CARDS*/
 
-#cards .container-fluid .row .col-6 img{
-    width: 250px;
+
+/* SECTION SHOW-ME*/
+
+#show-me .container .row .col-12 h6{
+    color: #0072ce;
 }
