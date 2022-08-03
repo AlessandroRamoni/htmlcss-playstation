@@ -11,3 +11,12 @@ header img{
     right: 15px;
     top: 15px;
 }
+
+/* NAV */
+
+
+#nav .container-fluid .row .col i{
+    font-size: 2em;
+    border: 2px solid lightgray;
+    padding: 2px;
+}
