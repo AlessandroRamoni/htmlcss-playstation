@@ -38,9 +38,9 @@ header img{
 /* SECTION RETURNAL*/
 
 #returnal{
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: right;
+    background-position: center;
     height: 500px;
 }
 
@@ -48,8 +48,9 @@ header img{
     color: #ffffff;
 }
 
-#returnal .container-fluid .row .col-12 h1{
+#returnal .container-fluid .row .col-12 img{
     margin-top: 300px;
+    max-width: 50%;
 }
 
 #returnal .container-fluid .row .col-12 a{
