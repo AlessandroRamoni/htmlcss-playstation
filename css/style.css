@@ -37,22 +37,22 @@ header img{
 
 /* SECTION RETURNAL*/
 
-#returnal .container-fluid .row .col{
+#returnal{
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     background-size: cover;
     background-position: right;
     height: 500px;
 }
 
-#returnal .container-fluid .row .col{
+#returnal .container-fluid .row .col-12{
     color: #ffffff;
 }
 
-#returnal .container-fluid .row .col h1{
+#returnal .container-fluid .row .col-12 h1{
     margin-top: 300px;
 }
 
-#returnal .container-fluid .row .col a{
+#returnal .container-fluid .row .col-12 a{
     text-decoration: none;
     border: 2px solid #cd3d0f;
     padding: 5px;
@@ -72,22 +72,22 @@ header img{
 
 /* SECTION TAKES-TWO*/
 
-#takes-two .container-fluid .row .col{
+#takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center center;
     height: 500px;
 }
 
-#takes-two .container-fluid .row .col{
+#takes-two .container-fluid .row .col-12{
     color: #ffffff;
 }
 
-#takes-two .container-fluid .row .col h1{
-    margin-top: 300px;
-}
+#takes-two .container-fluid .row .col-12 h1{
+    margin-top: 200px;
+} 
 
-#takes-two .container-fluid .row .col a{
+#takes-two .container-fluid .row .col-12 a{
     text-decoration: none;
     border: 2px solid #cd3d0f;
     padding: 5px;
@@ -108,4 +108,29 @@ header img{
 
 #nuove-uscite .container-fluid .row .col h1{
     padding-top: 30px;
+}
+
+#nuove-uscite .container-fluid .row .col-6 img{
+    border-color: #1f1f1f;
+}
+
+/* PLUS*/
+
+#plus{
+    background-color: #bebcbb;
+}
+
+#plus .container-fluid .row .col img{
+    max-width: 350px;
+} 
+
+#plus .container-fluid .row .col a{
+    text-decoration: none;
+    border: 2px solid #d9dadc;
+    padding: 5px;
+    background-color: #d9dadc;
+    border-radius: 20px;
+    color: #2d64e6;
+    font-size: 0.8em;
+    font-weight: 600;
 }
