@@ -140,3 +140,24 @@ header img{
 }
 
 /* SCONTI */
+
+
+/* NOW */
+#now{
+    background-color: #161c3b;
+}
+
+#now .container-fluid .row .col-12 p{
+    color: #ffffff;
+}
+
+#now .container-fluid .row .col-12 a{
+    text-decoration: none;
+    border: 2px solid #d9dadc;
+    padding: 5px;
+    background-color: #d9dadc;
+    border-radius: 20px;
+    color: black;
+    font-size: 0.8em;
+    font-weight: 600;
+}
