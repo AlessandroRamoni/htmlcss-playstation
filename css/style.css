@@ -2,6 +2,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.bottoni{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #2d64e6;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: 600; 
+}
+
 header{
     background-color: black;
     height: 50px;
@@ -49,7 +59,7 @@ header img{
 }
 
 #returnal .container-fluid .row .col-12 img{
-    margin-top: 300px;
+    margin-top: 200px;
     max-width: 50%;
 }
 
@@ -85,7 +95,7 @@ header img{
 }
 
 #takes-two .container-fluid .row .col-12 h1{
-    margin-top: 200px;
+    margin-top: 150px;
 } 
 
 #takes-two .container-fluid .row .col-12 a{
