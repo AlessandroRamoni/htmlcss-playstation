@@ -65,11 +65,16 @@ header img{
 
 #returnal .container-fluid .row .col-12 a{
     text-decoration: none;
-    border: 2px solid #cd3d0f;
-    padding: 5px;
+    padding: 10px;
     background-color: #cd3d0f;
     border-radius: 20px;
     color: #ffffff;
+    border-style: double;
+    transition: border 2s linear; 
+}
+
+#returnal .container-fluid .row .col-12 a:hover{
+    border: 2px double #cd3d0f;
 }
 
 /* SECTION CARDS*/
