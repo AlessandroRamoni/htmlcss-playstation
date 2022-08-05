@@ -46,8 +46,13 @@ header img{
 }
 
 #nav .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu{
-    top: 50px;
-    left: -63px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+#nav .navbar .container-fluid .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    position: initial;
 }
 
 /* SECTION RETURNAL*/
