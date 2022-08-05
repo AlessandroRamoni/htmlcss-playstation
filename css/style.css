@@ -74,6 +74,15 @@ header img{
 
 /* SECTION CARDS*/
 
+#cards .container-fluid .row .col-6 img{
+    transition: transform 2s ease-out; 
+}
+
+
+#cards .container-fluid .row .col-6 img:hover{
+    cursor: pointer;
+    transform: translate(0, -20px);
+}
 
 /* SECTION SHOW-ME*/
 
